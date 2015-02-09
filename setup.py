@@ -118,7 +118,7 @@ elif LINUX:
       '/usr/lib/x86_64-linux-gnu',
       '/lib/x86_64-linux-gnu',
       '/lib',
-      '/app/.apt/usr/lib',
+      '/app/.apt/usr/lib/x86_64-linux-gnu',
       ]
 
     lua_aliases = ['lua5.1','lua-5.1','lua']
