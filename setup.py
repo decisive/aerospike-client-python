@@ -57,7 +57,9 @@ extra_objects = []
 
 extra_link_args = []
 
-library_dirs = []
+library_dirs = [
+    '/app/.apt/usr/lib/x86_64-linux-gnu',
+]
 
 libraries = [
   'ssl',
